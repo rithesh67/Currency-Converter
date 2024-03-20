@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.CurrencyConverter {
+  /* background-color: #383434; */
+  background-color: white;
+  height: screen;
+}
+.navbarStatus {
+  /* background-color: #282424; */
+  background-color: #6ca494;
+  height: 50px;
+  width: screen;
+}
+.topBar {
+  background-color: #000;
+  height: 40px;
+  width: screen;
+}
+.Currency {
+  flex: 8;
+}
+.Symbol {
+  flex: 1;
+}
+.totalDisplay {
+  /* background-color: #383434; */
+  background-color: white;
+  height: screen;
+  width: screen;
+}
+.buttonBox {
+  height: 60px;
+}
+.countryflag {
+  flex: 1;
+}
+.countryStats {
+  flex: 4;
+}
+.tradeBox {
+  height: 60px;
+  border: 1px;
+  width: 100%;
+  /* border-color: #848484; */
+  border-color: white;
+}
+.Abbrev {
+  /* color: #848484; */
+}
+
+.Date {
+  justify-content: space-between;
+}
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  border-radius: rem;
+  width: auto;
+}
